@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixMultiplication.Logic", "MatrixMultiplication.Logic\MatrixMultiplication.Logic.csproj", "{84B25B28-ED67-480F-A04C-8DB458EA8A29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixMultiplication.UI", "MatrixMultiplication.UI\MatrixMultiplication.UI.csproj", "{48367613-B523-4893-BD07-0E256AC4A5B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MatrixMultiplication", "MatrixMultiplication", "{DE985757-1586-4FE3-8BAA-926090F96BFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hourglass", "Hourglass", "{519DE4CF-66B4-403A-9EE2-95C85754ABB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactorDecomposition", "FactorDecomposition", "{E4854D45-58F8-43F3-A1DF-01C3E84238E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HarvestingHorseback", "HarvestingHorseback", "{00F1CEF5-0397-4BA8-9957-79549E0139F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HorsesConflict", "HorsesConflict", "{E0C87CAB-7DFF-43C0-970F-6306B4D39A0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84B25B28-ED67-480F-A04C-8DB458EA8A29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84B25B28-ED67-480F-A04C-8DB458EA8A29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84B25B28-ED67-480F-A04C-8DB458EA8A29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84B25B28-ED67-480F-A04C-8DB458EA8A29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48367613-B523-4893-BD07-0E256AC4A5B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48367613-B523-4893-BD07-0E256AC4A5B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48367613-B523-4893-BD07-0E256AC4A5B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48367613-B523-4893-BD07-0E256AC4A5B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{84B25B28-ED67-480F-A04C-8DB458EA8A29} = {DE985757-1586-4FE3-8BAA-926090F96BFB}
+		{48367613-B523-4893-BD07-0E256AC4A5B1} = {DE985757-1586-4FE3-8BAA-926090F96BFB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3453CD58-8EFE-4EC7-AAA3-2941E368874A}
+	EndGlobalSection
+EndGlobal
