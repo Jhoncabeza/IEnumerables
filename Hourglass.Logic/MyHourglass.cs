@@ -38,7 +38,6 @@
             }
             return output;
         }
-
         public string PrintMatrixHourglass()
         {
             var output = String.Empty;
