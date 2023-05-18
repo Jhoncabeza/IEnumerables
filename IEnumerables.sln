@@ -3,13 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixMultiplication.Logic", "MatrixMultiplication.Logic\MatrixMultiplication.Logic.csproj", "{84B25B28-ED67-480F-A04C-8DB458EA8A29}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixMultiplication.UI", "MatrixMultiplication.UI\MatrixMultiplication.UI.csproj", "{48367613-B523-4893-BD07-0E256AC4A5B1}"
-	ProjectSection(ProjectDependencies) = postProject
-		{84B25B28-ED67-480F-A04C-8DB458EA8A29} = {84B25B28-ED67-480F-A04C-8DB458EA8A29}
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MatrixMultiplication", "MatrixMultiplication", "{DE985757-1586-4FE3-8BAA-926090F96BFB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hourglass", "Hourglass", "{519DE4CF-66B4-403A-9EE2-95C85754ABB3}"
@@ -20,27 +13,45 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HarvestingHorseback", "Harv
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HorsesConflict", "HorsesConflict", "{E0C87CAB-7DFF-43C0-970F-6306B4D39A0F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hourglass.Logic", "Hourglass.Logic\Hourglass.Logic.csproj", "{E46A525A-9080-4441-B6FA-DBA3292F6668}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hourglass.UI", "Hourglass.UI\Hourglass.UI.csproj", "{021DF0E5-5B19-4407-B179-1C5E31FBD464}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixMultiplication.Logic", "MatrixMultiplication.Logic\MatrixMultiplication.Logic.csproj", "{85C915F9-8C04-4894-AF8C-2A7E80C14CC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixMultiplication.UI", "MatrixMultiplication.UI\MatrixMultiplication.UI.csproj", "{6FB7A18A-7DDE-4923-94CE-EC2AF47EC621}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{84B25B28-ED67-480F-A04C-8DB458EA8A29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{84B25B28-ED67-480F-A04C-8DB458EA8A29}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{84B25B28-ED67-480F-A04C-8DB458EA8A29}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{84B25B28-ED67-480F-A04C-8DB458EA8A29}.Release|Any CPU.Build.0 = Release|Any CPU
-		{48367613-B523-4893-BD07-0E256AC4A5B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{48367613-B523-4893-BD07-0E256AC4A5B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{48367613-B523-4893-BD07-0E256AC4A5B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{48367613-B523-4893-BD07-0E256AC4A5B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E46A525A-9080-4441-B6FA-DBA3292F6668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E46A525A-9080-4441-B6FA-DBA3292F6668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E46A525A-9080-4441-B6FA-DBA3292F6668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E46A525A-9080-4441-B6FA-DBA3292F6668}.Release|Any CPU.Build.0 = Release|Any CPU
+		{021DF0E5-5B19-4407-B179-1C5E31FBD464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{021DF0E5-5B19-4407-B179-1C5E31FBD464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{021DF0E5-5B19-4407-B179-1C5E31FBD464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{021DF0E5-5B19-4407-B179-1C5E31FBD464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85C915F9-8C04-4894-AF8C-2A7E80C14CC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85C915F9-8C04-4894-AF8C-2A7E80C14CC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85C915F9-8C04-4894-AF8C-2A7E80C14CC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85C915F9-8C04-4894-AF8C-2A7E80C14CC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FB7A18A-7DDE-4923-94CE-EC2AF47EC621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FB7A18A-7DDE-4923-94CE-EC2AF47EC621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FB7A18A-7DDE-4923-94CE-EC2AF47EC621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FB7A18A-7DDE-4923-94CE-EC2AF47EC621}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{84B25B28-ED67-480F-A04C-8DB458EA8A29} = {DE985757-1586-4FE3-8BAA-926090F96BFB}
-		{48367613-B523-4893-BD07-0E256AC4A5B1} = {DE985757-1586-4FE3-8BAA-926090F96BFB}
+		{E46A525A-9080-4441-B6FA-DBA3292F6668} = {519DE4CF-66B4-403A-9EE2-95C85754ABB3}
+		{021DF0E5-5B19-4407-B179-1C5E31FBD464} = {519DE4CF-66B4-403A-9EE2-95C85754ABB3}
+		{85C915F9-8C04-4894-AF8C-2A7E80C14CC7} = {DE985757-1586-4FE3-8BAA-926090F96BFB}
+		{6FB7A18A-7DDE-4923-94CE-EC2AF47EC621} = {DE985757-1586-4FE3-8BAA-926090F96BFB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3453CD58-8EFE-4EC7-AAA3-2941E368874A}
