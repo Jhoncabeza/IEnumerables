@@ -3,9 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixMultiplication.Logic", "MatrixMultiplication.Logic\MatrixMultiplication.Logic.csproj", "{84B25B28-ED67-480F-A04C-8DB458EA8A29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixMultiplication.Logic", "MatrixMultiplication.Logic\MatrixMultiplication.Logic.csproj", "{84B25B28-ED67-480F-A04C-8DB458EA8A29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixMultiplication.UI", "MatrixMultiplication.UI\MatrixMultiplication.UI.csproj", "{48367613-B523-4893-BD07-0E256AC4A5B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixMultiplication.UI", "MatrixMultiplication.UI\MatrixMultiplication.UI.csproj", "{48367613-B523-4893-BD07-0E256AC4A5B1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{84B25B28-ED67-480F-A04C-8DB458EA8A29} = {84B25B28-ED67-480F-A04C-8DB458EA8A29}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MatrixMultiplication", "MatrixMultiplication", "{DE985757-1586-4FE3-8BAA-926090F96BFB}"
 EndProject
