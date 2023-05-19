@@ -17,9 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hourglass.Logic", "Hourglas
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hourglass.UI", "Hourglass.UI\Hourglass.UI.csproj", "{021DF0E5-5B19-4407-B179-1C5E31FBD464}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixMultiplication.Logic", "MatrixMultiplication.Logic\MatrixMultiplication.Logic.csproj", "{85C915F9-8C04-4894-AF8C-2A7E80C14CC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixMultiplication.Logic", "MatrixMultiplication.Logic\MatrixMultiplication.Logic.csproj", "{85C915F9-8C04-4894-AF8C-2A7E80C14CC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixMultiplication.UI", "MatrixMultiplication.UI\MatrixMultiplication.UI.csproj", "{6FB7A18A-7DDE-4923-94CE-EC2AF47EC621}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixMultiplication.UI", "MatrixMultiplication.UI\MatrixMultiplication.UI.csproj", "{6FB7A18A-7DDE-4923-94CE-EC2AF47EC621}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarvestingHorseback.UI", "HarvestingHorseback.UI\HarvestingHorseback.UI.csproj", "{725CCBE7-F14F-4500-95B6-2A3C515E2D66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarvestingHorseback.Logic", "HarvestingHorseback.Logic\HarvestingHorseback.Logic.csproj", "{1BED7CE3-30E7-4C76-A990-DCE1F02EFE07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +47,14 @@ Global
 		{6FB7A18A-7DDE-4923-94CE-EC2AF47EC621}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FB7A18A-7DDE-4923-94CE-EC2AF47EC621}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FB7A18A-7DDE-4923-94CE-EC2AF47EC621}.Release|Any CPU.Build.0 = Release|Any CPU
+		{725CCBE7-F14F-4500-95B6-2A3C515E2D66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{725CCBE7-F14F-4500-95B6-2A3C515E2D66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{725CCBE7-F14F-4500-95B6-2A3C515E2D66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{725CCBE7-F14F-4500-95B6-2A3C515E2D66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BED7CE3-30E7-4C76-A990-DCE1F02EFE07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BED7CE3-30E7-4C76-A990-DCE1F02EFE07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BED7CE3-30E7-4C76-A990-DCE1F02EFE07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BED7CE3-30E7-4C76-A990-DCE1F02EFE07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +64,8 @@ Global
 		{021DF0E5-5B19-4407-B179-1C5E31FBD464} = {519DE4CF-66B4-403A-9EE2-95C85754ABB3}
 		{85C915F9-8C04-4894-AF8C-2A7E80C14CC7} = {DE985757-1586-4FE3-8BAA-926090F96BFB}
 		{6FB7A18A-7DDE-4923-94CE-EC2AF47EC621} = {DE985757-1586-4FE3-8BAA-926090F96BFB}
+		{725CCBE7-F14F-4500-95B6-2A3C515E2D66} = {00F1CEF5-0397-4BA8-9957-79549E0139F2}
+		{1BED7CE3-30E7-4C76-A990-DCE1F02EFE07} = {00F1CEF5-0397-4BA8-9957-79549E0139F2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3453CD58-8EFE-4EC7-AAA3-2941E368874A}
